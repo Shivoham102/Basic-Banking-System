@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style media="screen">
+
+    body {
+      background-color: #42f5e6;
+
+    }
+
+    .navbar-custom {
+
+      background-color: #751aff;
+      height: 100px;
+     }
+
+      #nav-bar {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+      }
+
+    .navbar-nav li {
+      padding: 0 10px;
+    }
+
+    .navbar-nav li a {
+      float: right;
+      text-align: left;
+      font-size: 17px;
+    }
+    #nav-bar ul li a:hover {
+      color: #FFFF00;
+    }
+
+
+    .nav-link {
+      color: black;
+      font-weight: 600;
+    }
+    .navbar-nav mr-auto {
+      float: right!important;
+    }
+
+    .navbar-toggler {
+      border: none!important;
+    }
+
+    @font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+
+    .navbar-brand {
+      color: #FFFF00!important;
+      font-size: 30px;
+      font-family : myFirstFont;
+      letter-spacing: 3px;
+    }
+    .content{
+        display: flex;
+        justify-content: center;
+        padding-top:100px;
+        font-family: verdana;
+    }
+   div .image{
+       padding: 60px;
+   }
+    div .slogan{
+        padding-top :200px;
+        font-weight: 600;
+        font-size: 28px;
+        font-family: Helvetica;
+    }
+
+    #footer {
+      position: absolute;
+      top: 145%;
+      right: 10%;
+      font-size: 25px;
+      font-weight: 500;
+    }
+
+    .footerContent {
+      padding-bottom: 30px;
+
+    }
+
+
+   .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 8px;
+    border-radius: 50%;
+  }
+
+  .fa-linkedin {
+    background: #003cff;
+    color: white;
+  }
+
+  .fa-instagram  {
+    background: #a928d4;
+    color: white;
+  }
+
+  .fa-facebook {
+    background: #093ce3;
+    color: white;
+  }
+
+  .fa:hover {
+    opacity: 0.8;
+    color: black;
+    text-decoration: none;
+}
+
+  .fa-university:hover {
+    opacity: inherit;
+    color: inherit;
+  }
+
+
+    </style>
+    <title>Bank</title>
+  </head>
+  <body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <section id = "nav-bar">
+      <nav class="navbar navbar-expand-lg navbar-custom">
+        <a class="navbar-brand">TSF BANK<i class="fa fa-university" aria-hidden="true"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="./index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./customers.php">CUSTOMERS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./transactions.php">TRANSACTIONS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./contactus.php">CONTACT US</a>
+            </li>
+            </ul>
+        </div>
+        </nav>
+    </section>
+
+    <div class="content" >
+        <div class="slogan">
+            <p>With you, even in tough times</p>
+        </div>
+        <div class="image">
+            <img src="Images/trans.png" alt="bankimage">
+        </div>
+    </div>
+
+
+
+<svg height="100%" width="100%" id="bg-svg" viewBox="0 0 1440 600" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><defs><linearGradient id="gradient"><stop offset="5%" stop-color="#9900ef88"></stop><stop offset="95%" stop-color="#32ded488"></stop></linearGradient></defs><path d="M 0,600 C 0,600 0,200 0,200 C 122.97607655502392,171.73205741626793 245.95215311004785,143.4641148325359 335,150 C 424.04784688995215,156.5358851674641 479.16746411483257,197.87559808612437 568,211 C 656.8325358851674,224.12440191387563 779.3779904306222,209.0334928229665 877,212 C 974.6220095693778,214.9665071770335 1047.3205741626793,235.9904306220096 1137,237 C 1226.6794258373207,238.0095693779904 1333.3397129186603,219.0047846889952 1440,200 C 1440,200 1440,600 1440,600 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150"></path><defs><linearGradient id="gradient"><stop offset="5%" stop-color="#9900efff"></stop><stop offset="95%" stop-color="#32ded4ff"></stop></linearGradient></defs><path d="M 0,600 C 0,600 0,400 0,400 C 123.4354066985646,405.35885167464113 246.8708133971292,410.71770334928226 326,396 C 405.1291866028708,381.28229665071774 439.9521531100478,346.48803827751203 538,332 C 636.0478468899522,317.51196172248797 797.3205741626796,323.33014354066984 916,339 C 1034.6794258373204,354.66985645933016 1110.7655502392345,380.19138755980856 1191,392 C 1271.2344497607655,403.80861244019144 1355.6172248803828,401.9043062200957 1440,400 C 1440,400 1440,600 1440,600 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150"></path></svg>
+
+
+
+<footer id="footer">
+  <section class="footerContent">
+    We are Social
+  </section>
+
+    <a href="https://www.linkedin.com/company/the-sparks-foundation/" class="fa fa-linkedin"></a>
+    <a href="https://www.instagram.com/thesparksfoundation.info/" class="fa fa-instagram"></a>
+    <a href="https://www.facebook.com/thesparksfoundation.info" class="fa fa-facebook"></a>
+
+</footer>
+
+
+  </body>
+</html>
